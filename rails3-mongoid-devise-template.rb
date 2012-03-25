@@ -560,7 +560,7 @@ case config['devise']
     recipes.delete('devise')
     say_wizard "Devise recipe skipped."
   when 'standard'
-    gem 'devise', '>= 2.1.0.rc'
+    gem 'devise'
   when 'confirmable'
     gem 'devise', '>= 2.1.0.rc'
     recipes << 'devise-confirmable'
